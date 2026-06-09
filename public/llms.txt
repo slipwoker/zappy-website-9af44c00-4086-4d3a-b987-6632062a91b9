@@ -7,41 +7,41 @@
 ## Pages
 
 ### בית
-https://-9af44c00.zappy5.app
+https://example.com
 קריקטורות חיות לאירועים ולימודי ציור מעצימים לגילוי הכישרון שבך. מחפשים אטרקציה לאירוע או מסע בחינוך לאמנות? כנסו וגלו איך משלבים יצירה ושמחה.
 
 ### קריקטורות לאירועים
-https://-9af44c00.zappy5.app/caricatures-for-events
+https://example.com/caricatures-for-events
 קריקטורות חיות שמוסיפות צבע וחיוך לחתונות, אירועי חברה ומסיבות פרטיות. חוויה אמנותית אישית שהופכת כל רגע למזכרת. הזמינו עכשיו ותנו לאירוע שלכם טאץ&#39; יצירתי.
 
 ### לימוד ציור
-https://-9af44c00.zappy5.app/learn-drawing
+https://example.com/learn-drawing
 לימודי ציור שמעניקים לכם ביטחון ליצור ביד חופשית. שיטה נגישה וחמה שמתאימה לכל מי שרוצה לצמוח בחינוך לאמנות. הצטרפו והתחילו לצייר את החלומות שלכם.
 
 ### גלריה
-https://-9af44c00.zappy5.app/gallery
+https://example.com/gallery
 גלריה של קריקטורות ורישומים שמשקפים את הקסם שברגע. הצצה לעולם של חינוך לאמנות חזותית ויצירה חיה. היכנסו ותנו לדמיון להוביל אתכם.
 
 ### אודות
-https://-9af44c00.zappy5.app/about
+https://example.com/about
 הסיפור של מולי אסידו – אמן קריקטורות חי ומחנך לאמנות שמחבר בין בידור להעצמה. גלו את הדרך הייחודית שמביאה חינוך לאמנות חזותית לחיים של כולם.
 
 ### צור קשר
-https://-9af44c00.zappy5.app/contact
+https://example.com/contact
 מוכנים להפוך את האירוע שלכם לבלתי נשכח או לצאת למסע לימודי ציור? צרו קשר עם מולי אסידו ותנו ליצירה להתחיל. אנחנו כאן לכל שאלה על חינוך לאמנות.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://-9af44c00.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://-9af44c00.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://-9af44c00.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -51,8 +51,8 @@ Information about WCAG compliance and accessibility features.
 - (No contact details configured yet.)
 
 ### Contact form
-- URL: https://-9af44c00.zappy5.app/contact
-- Endpoint: https://-9af44c00.zappy5.app/api/email/contact-form
+- URL: https://example.com/contact
+- Endpoint: https://example.com/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
@@ -89,6 +89,6 @@ Art & Education
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://-9af44c00.zappy5.app/sitemap.xml
-- Robots: https://-9af44c00.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://-9af44c00.zappy5.app/llms-full.txt
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
