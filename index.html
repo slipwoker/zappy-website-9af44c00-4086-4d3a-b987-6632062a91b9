@@ -726,6 +726,279 @@
   }
 }
 </style>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.index-services-section {
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+  padding: 80px 20px 80px;
+  position: relative;
+  overflow: visible;
+}
+
+.index-services-section__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+/* Header */
+.index-services-section__header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.index-services-section__title {
+  font-family: 'Cormorant Garamond', 'Heebo', serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--text-dark);
+  margin: 0 0 12px 0;
+  text-align: center;
+}
+
+.index-services-section__subtitle {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--text-muted);
+  margin: 0 0 24px 0;
+  text-align: center;
+  max-width: 600px;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+}
+
+.index-services-section__accent-line {
+  width: 80px;
+  height: 3px;
+  background-color: var(--accent);
+  margin: 0 auto;
+  border-radius: 2px;
+  opacity: 0.7;
+}
+
+/* Cards Grid */
+.index-services-section__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  margin-bottom: 64px;
+  direction: rtl;
+}
+
+.index-services-section__card {
+  background: #FFFFFF;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.08);
+  padding: 32px 24px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.index-services-section__card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 48px rgba(0,0,0,0.12);
+}
+
+.index-services-section__card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  inset-inline-start: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, var(--primary), var(--accent));
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.index-services-section__card:hover::before {
+  opacity: 1;
+}
+
+.index-services-section__card-icon {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 20px;
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(74, 124, 120, 0.08);
+  border-radius: 50%;
+  padding: 12px;
+}
+
+.index-services-section__card-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.index-services-section__card-title {
+  font-family: 'Heebo', sans-serif;
+  font-size: 1.375rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--text-dark);
+  margin: 0 0 12px 0;
+  text-align: center;
+}
+
+.index-services-section__card-text {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--text-muted);
+  margin: 0;
+  text-align: center;
+}
+
+/* Photo Collage */
+.index-services-section__collage {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-bottom: 48px;
+  direction: rtl;
+}
+
+.index-services-section__collage-main {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.08);
+  aspect-ratio: 2 / 3;
+}
+
+.index-services-section__collage-main img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.index-services-section__collage-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.index-services-section__collage-secondary {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.08);
+  flex: 1;
+  min-height: 0;
+}
+
+.index-services-section__collage-secondary img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* CTA */
+.index-services-section__cta {
+  text-align: center;
+}
+
+.index-services-section__cta .btn-primary {
+  background: var(--accent);
+  color: #1A1208;
+  padding: 14px 28px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 12px rgba(212, 168, 67, 0.3);
+}
+
+.index-services-section__cta .btn-primary:hover {
+  background: #c99b3a;
+  box-shadow: 0 8px 24px rgba(212, 168, 67, 0.45);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .index-services-section {
+    padding: 60px 16px 60px;
+  }
+
+  .index-services-section__header {
+    margin-bottom: 40px;
+  }
+
+  .index-services-section__title {
+    font-size: 2rem;
+  }
+
+  .index-services-section__cards {
+    grid-template-columns: 1fr !important;
+    gap: 24px;
+    margin-bottom: 48px;
+  }
+
+  .index-services-section__card {
+    padding: 24px 20px;
+  }
+
+  .index-services-section__collage {
+    grid-template-columns: 1fr !important;
+    gap: 16px;
+    margin-bottom: 36px;
+  }
+
+  .index-services-section__collage-main {
+    aspect-ratio: 4 / 3;
+    max-height: 400px;
+  }
+
+  .index-services-section__collage-stack {
+    flex-direction: row;
+    gap: 16px;
+  }
+
+  .index-services-section__collage-secondary {
+    flex: 1;
+    aspect-ratio: 1 / 1;
+  }
+
+  .index-services-section__cta .btn-primary {
+    width: 100%;
+    justify-content: center;
+    padding: 16px 24px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .index-services-section__collage-stack {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .index-services-section__collage-secondary {
+    aspect-ratio: 16 / 9;
+  }
+}
+</style>
     <link rel="stylesheet" href="/styles.css">
     <script>window.ZAPPY_WEBSITE_ID = "9af44c00-4086-4d3a-b987-6632062a91b9"; window.ZAPPY_API_BASE = "https://api.zappy5.com";</script>
 
@@ -1321,7 +1594,7 @@
   <!-- Torn Paper Bottom Divider -->
   <div class="index-hero-divider-wrapper" aria-hidden="true">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,80 L0,35 Q50,30 100,38 T200,32 Q250,40 300,30 T400,36 Q450,32 500,38 T600,30 Q650,38 700,32 T800,36 Q850,30 900,38 T1000,32 Q1050,40 1100,30 T1200,36 L1200,80 Z" fill="#F7F1E8"></path>
+      <path d="M0,80 L0,35 Q50,30 100,38 T200,32 Q250,40 300,30 T400,36 Q450,32 500,38 T600,30 Q650,38 700,32 T800,36 Q850,30 900,38 T1000,32 Q1050,40 1100,30 T1200,36 L1200,80 Z" fill="#F5EFE6"></path>
     </svg>
   </div>
 </section>
@@ -1387,91 +1660,83 @@
   </div>
 </section>
 
-<section data-band-index="2" class="index-services-section" data-layout-spec="בית-services">
+<section class="index-services-section" data-layout-spec="בית-services">
   <div class="index-services-section__container">
-    <!-- Content Column (START side in RTL = right) -->
-    <div class="index-services-section__content">
-      <h2 class="index-services-section__heading">השירותים שלי</h2>
-      <p class="index-services-section__subtitle">מגשר בין בידור לחינוך — קריקטורות חיות שמרימות כל אירוע, ולימוד ציור שבונה ביטחון אמיתי</p>
-      
-      <div class="index-services-section__pillars">
-        <!-- Pillar 1 -->
-        <div class="index-services-section__pillar">
-          <div class="index-services-section__pillar-icon">
-            <svg data-element-type="icon" data-icon-type="svg" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="14" cy="14" r="12" stroke="currentColor" stroke-width="1.5"></circle>
-              <path d="M9 14L12.5 17.5L19 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-            </svg>
-          </div>
-          <div class="index-services-section__pillar-text">
-            <h3 class="index-services-section__pillar-title">חוויית אירוע חיה</h3>
-            <p class="index-services-section__pillar-desc">קריקטורות מהירות ומדויקות שמוסיפות קסם אישי לכל אירוע — האורחים מקבלים מזכרת מצוירת ביד שהם לא ישכחו.</p>
-          </div>
-        </div>
+    <!-- Section Header -->
+    <header class="index-services-section__header">
+      <h2 class="index-services-section__title">השירותים שלי</h2>
+      <p class="index-services-section__subtitle">מביאים אמנות לכל אירוע ומלמדים לצייר בביטחון</p>
+      <div class="index-services-section__accent-line" aria-hidden="true"></div>
+    </header>
 
-        <!-- Pillar 2 -->
-        <div class="index-services-section__pillar">
-          <div class="index-services-section__pillar-icon">
-            <svg data-element-type="icon" data-icon-type="svg" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="14" cy="14" r="12" stroke="currentColor" stroke-width="1.5"></circle>
-              <path d="M14 8V14L18 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-            </svg>
-          </div>
-          <div class="index-services-section__pillar-text">
-            <h3 class="index-services-section__pillar-title">גישה אישית וחמה</h3>
-            <p class="index-services-section__pillar-desc">אני מגיע לכל מפגש עם חיוך וסבלנות אין-סופית — מלמד ומצייר בגובה העיניים, בלי ביקורת, רק תמיכה והנאה.</p>
-          </div>
+    <!-- Services Cards -->
+    <div class="index-services-section__cards">
+      <!-- Card 1: Live Caricature -->
+      <article class="index-services-section__card card-default">
+        <div class="index-services-section__card-icon" aria-hidden="true">
+          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="2"></circle>
+            <circle cx="18" cy="20" r="2" fill="currentColor"></circle>
+            <circle cx="30" cy="20" r="2" fill="currentColor"></circle>
+            <path d="M16 30 Q24 36 32 30" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+            <path d="M12 14 L16 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+            <path d="M36 14 L32 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+          </svg>
         </div>
+        <h3 class="index-services-section__card-title">קריקטורה חיה באירועים</h3>
+        <p class="index-services-section__card-text">אני מגיע לאירועים פרטיים, חתונות, כנסים וימי הולדת ומצייר קריקטורות מהירות ומשעשעות לאורחים – מזכרת אישית ומלאת חיים שכל אחד לוקח הביתה.</p>
+      </article>
 
-        <!-- Pillar 3 -->
-        <div class="index-services-section__pillar">
-          <div class="index-services-section__pillar-icon">
-            <svg data-element-type="icon" data-icon-type="svg" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="14" cy="14" r="12" stroke="currentColor" stroke-width="1.5"></circle>
-              <path d="M10 14L13 17L18 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-            </svg>
-          </div>
-          <div class="index-services-section__pillar-text">
-            <h3 class="index-services-section__pillar-title">לימוד שבונה ביטחון</h3>
-            <p class="index-services-section__pillar-desc">הקורסים והמנטורשיפ שלי בנויים כדי שכל אחד — גם מי שמעולם לא צייר — יגלה שהוא יכול. צעד אחר צעד, עם המון עידוד.</p>
-          </div>
+      <!-- Card 2: Art Education -->
+      <article class="index-services-section__card card-default">
+        <div class="index-services-section__card-icon" aria-hidden="true">
+          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="8" y="10" width="32" height="28" rx="3" stroke="currentColor" stroke-width="2"></rect>
+            <line x1="8" y1="16" x2="40" y2="16" stroke="currentColor" stroke-width="2"></line>
+            <circle cx="24" cy="26" r="6" stroke="currentColor" stroke-width="2"></circle>
+            <circle cx="24" cy="26" r="2" fill="currentColor"></circle>
+            <path d="M24 20 L24 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+          </svg>
         </div>
-      </div>
+        <h3 class="index-services-section__card-title">לימודי רישום וציור</h3>
+        <p class="index-services-section__card-text">סדנאות וקורסים פרטניים או בקבוצות קטנות, שבהם תלמדו טכניקות רישום בסיסיות ומתקדמות – מפחם ועד צבעי מים – בסביבה תומכת ומעוררת השראה.</p>
+      </article>
+
+      <!-- Card 3: Custom Commissions -->
+      <article class="index-services-section__card card-default">
+        <div class="index-services-section__card-icon" aria-hidden="true">
+          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="10" y="8" width="28" height="32" rx="2" stroke="currentColor" stroke-width="2"></rect>
+            <circle cx="24" cy="22" r="6" stroke="currentColor" stroke-width="2"></circle>
+            <path d="M20 28 L14 36" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+            <path d="M28 28 L34 36" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+            <line x1="18" y1="36" x2="30" y2="36" stroke="currentColor" stroke-width="2" stroke-linecap="round"></line>
+          </svg>
+        </div>
+        <h3 class="index-services-section__card-title">הזמנות אישיות ויצירות מקור</h3>
+        <p class="index-services-section__card-text">מחפשים מתנה מיוחדת או יצירת אמנות בהתאמה אישית? אני יוצר פורטרטים, איורים ודימויים מקוריים לפי בקשתכם – כל יצירה מספרת סיפור.</p>
+      </article>
     </div>
 
-    <!-- Image Collage Column (END side in RTL = left) -->
+    <!-- Photo Collage Area -->
     <div class="index-services-section__collage">
-      <div class="index-services-section__collage-grid">
-        <div class="index-services-section__collage-item index-services-section__collage-item--tall">
-          <img loading="lazy" decoding="async" data-placeholder="index-services-image-1" data-context="Muli Asido drawing a live caricature at a wedding event, guests smiling around him, warm ambient lighting, candid moment captured in editorial style" width="300" height="450" src="/assets/site-index-services-image-1-1780989713129-vpmwto.webp?v=1780989713129" alt="מולי אסידו מצייר קריקטורה חיה באירוע">
+      <div class="index-services-section__collage-main">
+        <img data-context="A tall vertical photo of Muli Asido the caricature artist drawing a guest at a lively wedding event, smiling and engaged, warm ambient lighting, candid shot showing the easel and the surprised guest" width="400" height="600" src="/assets/art-education-section-בית-services-index-services-image-1.webp" alt="מולי אסידו מצייר קריקטורה חיה באירוע">
+      </div>
+      <div class="index-services-section__collage-stack">
+        <div class="index-services-section__collage-secondary">
+          <img data-context="Close-up of a hand sketching with charcoal on textured paper, art studio setting, soft natural light from window, creative process detail shot" width="400" height="280" src="/assets/art-education-section-בית-services-index-services-image-2.webp" alt="תהליך יצירה – רישום בפחם">
         </div>
-        <div class="index-services-section__collage-item index-services-section__collage-item--small">
-          <img loading="lazy" decoding="async" data-placeholder="index-services-image-2" data-context="Close-up of Muli Asido's hands sketching a portrait with charcoal on textured paper, artistic studio lighting, shallow depth of field" width="250" height="200" src="/assets/site-index-services-image-2-1780989783347-3hh55w.webp?v=1780989783347" alt="תקריב ידיים מציירות פורטרט בפחם">
-        </div>
-        <div class="index-services-section__collage-item index-services-section__collage-item--small">
-          <img loading="lazy" decoding="async" data-placeholder="index-services-image-3" data-context="Muli Asido teaching a small group of students in a bright art studio, easels and sketchbooks visible, encouraging atmosphere, natural light" width="250" height="200" src="/assets/site-index-services-image-3-1780989744080-of46a1.webp?v=1780989744080" alt="מולי אסידו מלמד ציור בסטודיו">
+        <div class="index-services-section__collage-secondary">
+          <img data-context="A group of students in an art workshop, easels and drawing boards, bright and airy studio, Muli Asido guiding a student, collaborative learning atmosphere" width="400" height="280" src="/assets/art-education-section-בית-services-index-services-image-3.webp" alt="סדנת ציור עם מולי אסידו">
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- Bottom Divider: diagonal gradient wash from plum into warm ivory with feathered edge -->
-  <div class="index-services-section__divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <linearGradient id="index-services-divider-grad" x1="0%" y1="0%" x2="0%" y2="100%">
-          <stop offset="0%" stop-color="var(--bg-dark)" stop-opacity="0"></stop>
-          <stop offset="40%" stop-color="var(--bg-dark)" stop-opacity="0.3"></stop>
-          <stop offset="70%" stop-color="#5B4B60" stop-opacity="0.7"></stop>
-          <stop offset="100%" stop-color="var(--bg-light)" stop-opacity="1"></stop>
-        </linearGradient>
-        <filter id="index-services-feather" x="-10%" y="-10%" width="120%" height="120%">
-          <feGaussianBlur in="SourceGraphic" stdDeviation="3"></feGaussianBlur>
-        </filter>
-      </defs>
-      <path d="M0,80 L0,30 Q150,20 300,35 T600,25 Q750,35 900,28 T1200,32 L1200,80 Z" fill="#F7F1E8" filter="url(#index-services-feather)"></path>
-      <path d="M0,80 L0,30 Q150,20 300,35 T600,25 Q750,35 900,28 T1200,32 L1200,80 Z" fill="#F7F1E8" opacity="0.3"></path>
-    </svg>
+    <!-- CTA -->
+    <div class="index-services-section__cta">
+      <a href="/contact" class="btn-primary">צרו קשר עוד היום</a>
+    </div>
   </div>
 </section>
 
