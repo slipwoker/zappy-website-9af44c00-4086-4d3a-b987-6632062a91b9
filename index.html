@@ -1002,224 +1002,16 @@
 
 <style data-zappy-section-v2-css="true">
 /* V2 Regenerated Section CSS */
-.index-cta-section {
-  background-color: var(--bg-dark);
-  background-image: 
-    radial-gradient(circle at 15% 20%, rgba(212, 168, 83, 0.08) 0%, transparent 50%),
-    radial-gradient(circle at 85% 80%, rgba(74, 124, 120, 0.1) 0%, transparent 50%),
-    linear-gradient(165deg, #2A3232 0%, #1E2424 100%);
-  color: var(--text-light);
-  padding: 80px 16px;
-  position: relative;
-  overflow: hidden;
-  direction: rtl;
-  text-align: right;
-}
-
-.index-cta-section__container {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 60px;
-  position: relative;
-  z-index: 10;
-}
-
-.index-cta-section__deco {
-  position: absolute;
-  pointer-events: none;
-  z-index: 1;
-}
-
-.index-cta-section__deco--top-right {
-  top: -20px;
-  inset-inline-end: -30px;
-}
-
-.index-cta-section__deco--bottom-left {
-  bottom: -30px;
-  inset-inline-start: -40px;
-}
-
-.index-cta-section__content {
-  flex: 1 1 55%;
-  position: relative;
-  z-index: 2;
-}
-
-.index-cta-section__heading {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 2.5rem;
-  font-weight: 600;
-  line-height: 1.3;
-  color: var(--text-light);
-  margin: 0 0 24px 0;
-  max-width: 600px;
-}
-
-.index-cta-section__description {
-  font-family: 'Inter', sans-serif;
-  font-size: 1rem;
-  line-height: 1.7;
-  color: rgba(247, 241, 232, 0.85);
-  margin: 0 0 40px 0;
-  max-width: 550px;
-}
-
-.index-cta-section__buttons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  align-items: center;
-}
-
-.index-cta-section__btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 12px;
-  padding: 16px 32px;
-  border-radius: 100px;
-  font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  font-size: 1rem;
-  text-decoration: none;
-  transition: all 0.3s ease;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
-  border: none;
-  cursor: pointer;
-  white-space: nowrap;
-}
-
-.index-cta-section__btn--primary {
-  background-color: var(--primary);
-  color: #FFFFFF;
-}
-
-.index-cta-section__btn--primary:hover {
-  background-color: #3D6B68;
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
-  transform: translateY(-2px);
-}
-
-.index-cta-section__btn--secondary {
-  background-color: var(--secondary);
-  color: #FFFFFF;
-}
-
-.index-cta-section__btn--secondary:hover {
-  background-color: #C07D55;
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
-  transform: translateY(-2px);
-}
-
-.index-cta-section__btn svg {
-  flex-shrink: 0;
-  transition: transform 0.3s ease;
-}
-
-.index-cta-section__btn:hover svg {
-  transform: translateX(-4px);
-}
-
-.index-cta-section__image-wrapper {
-  flex: 1 1 40%;
-  position: relative;
-  z-index: 2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.index-cta-section__image {
-  width: 100%;
-  max-width: 400px;
-  height: auto;
-  border-radius: 24px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
-  border: 4px solid rgba(247, 241, 232, 0.1);
-  object-fit: cover;
-  aspect-ratio: 4 / 3;
-}
-
-@media (max-width: 768px) {
-  .index-cta-section {
-    padding: 60px 16px;
-  }
-
-  .index-cta-section__container {
-    flex-direction: column;
-    gap: 40px;
-  }
-
-  .index-cta-section__content {
-    text-align: center;
-    max-width: 100%;
-  }
-
-  .index-cta-section__heading {
-    font-size: 2rem;
-    max-width: 100%;
-    text-align: center;
-  }
-
-  .index-cta-section__description {
-    max-width: 100%;
-    text-align: center;
-    margin-bottom: 32px;
-  }
-
-  .index-cta-section__buttons {
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .index-cta-section__btn {
-    width: 100%;
-    max-width: 320px;
-    justify-content: center;
-  }
-
-  .index-cta-section__image-wrapper {
-    display: none;
-  }
-
-  .index-cta-section__deco--top-right {
-    top: -10px;
-    inset-inline-end: -20px;
-    width: 120px;
-    height: 80px;
-  }
-
-  .index-cta-section__deco--bottom-left {
-    bottom: -20px;
-    inset-inline-start: -20px;
-    width: 140px;
-    height: 100px;
-  }
-}
-</style>
-
-<style data-zappy-section-v2-css="true">
-/* V2 Regenerated Section CSS */
 .index-portfolio-section {
   background: #F5EFE6;
   color: var(--text-dark);
-  padding: 80px 16px;
   position: relative;
-  overflow: hidden;
+  overflow: visible;
+  padding: 80px 24px 80px;
   direction: rtl;
 }
 
-.index-portfolio-section * {
-  box-sizing: border-box;
-}
-
-/* Container */
-.index-portfolio-container {
+.index-portfolio-section__container {
   max-width: 1200px;
   margin: 0 auto;
   position: relative;
@@ -1227,77 +1019,67 @@
 }
 
 /* Header */
-.index-portfolio-header {
+.index-portfolio-section__header {
   text-align: center;
   margin-bottom: 48px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 16px;
 }
 
-.index-portfolio-heading {
-  font-family: 'Heebo', sans-serif;
+.index-portfolio-section__title {
+  font-family: 'Cormorant Garamond', 'Heebo', serif;
   font-size: 2.4rem;
   font-weight: 700;
+  letter-spacing: 0;
   line-height: 1.2;
   color: #1C1C1C;
-  margin: 0;
+  margin: 0 0 16px;
+  text-align: center;
   max-width: none !important;
 }
 
-.index-portfolio-decorative-line {
-  display: block;
-  width: 120px;
-  height: 4px;
-  flex-shrink: 0;
+.index-portfolio-section__accent-line {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
-.index-portfolio-subtitle {
-  font-family: 'Inter', sans-serif;
-  font-size: 1.1rem;
-  font-weight: 400;
-  line-height: 1.8;
-  color: #3A3A3A;
-  max-width: 600px;
-  margin: 0 auto;
-  text-align: center;
+.index-portfolio-section__accent-line svg {
+  width: 120px;
+  height: 8px;
 }
 
 /* Grid */
-.index-portfolio-grid {
+.index-portfolio-section__grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
   gap: 32px;
-  direction: rtl;
   margin-bottom: 48px;
 }
 
 /* Card */
-.index-portfolio-card {
+.index-portfolio-section__card {
   background: #FFFFFF;
   border-radius: 4px;
-  box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.08);
   overflow: hidden;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
   display: flex;
   flex-direction: column;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.index-portfolio-card:hover {
-  transform: translateY(-4px);
+.index-portfolio-section__card:hover {
   box-shadow: 0 16px 48px rgba(0,0,0,0.14);
+  transform: translateY(-4px);
 }
 
-.index-portfolio-figure {
-  position: relative;
+.index-portfolio-section__figure {
   margin: 0;
+  position: relative;
   overflow: hidden;
   aspect-ratio: 3 / 2;
-  background: var(--bg-light);
+  background: #EBE0D0;
 }
 
-.index-portfolio-figure img {
+.index-portfolio-section__figure img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -1305,77 +1087,83 @@
   transition: transform 0.4s ease;
 }
 
-.index-portfolio-card:hover .index-portfolio-figure img {
+.index-portfolio-section__card:hover .index-portfolio-section__figure img {
   transform: scale(1.03);
 }
 
-.index-portfolio-tag {
+.index-portfolio-section__tag {
   position: absolute;
-  inset-block-end: 12px;
-  inset-inline-end: 12px;
+  top: 16px;
+  inset-inline-end: 16px;
   background: var(--primary);
   color: var(--text-light);
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', 'Heebo', sans-serif;
   font-size: 0.875rem;
   font-weight: 600;
-  padding: 4px 14px;
+  padding: 6px 14px;
   border-radius: 100px;
+  line-height: 1.4;
+  z-index: 3;
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-  z-index: 5;
 }
 
-.index-portfolio-card-body {
+.index-portfolio-section__card-body {
   padding: 24px;
+  flex: 1;
   display: flex;
   flex-direction: column;
   gap: 8px;
-  text-align: start;
 }
 
-.index-portfolio-card-title {
+.index-portfolio-section__card-title {
   font-family: 'Heebo', sans-serif;
   font-size: 1.6rem;
   font-weight: 600;
   line-height: 1.3;
   color: #1C1C1C;
   margin: 0;
+  text-align: start;
 }
 
-.index-portfolio-card-desc {
-  font-family: 'Inter', sans-serif;
+.index-portfolio-section__card-text {
+  font-family: 'Inter', 'Heebo', sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.7;
   color: #4A4A4A;
   margin: 0;
+  text-align: start;
 }
 
 /* Bridge Paragraph */
-.index-portfolio-bridge {
+.index-portfolio-section__bridge {
+  max-width: 720px;
+  margin: 0 auto 40px;
   text-align: center;
-  margin-bottom: 40px;
 }
 
-.index-portfolio-bridge-text {
-  font-family: 'Inter', sans-serif;
+.index-portfolio-section__bridge-text {
+  font-family: 'Inter', 'Heebo', sans-serif;
   font-size: 1.1rem;
   font-weight: 400;
   line-height: 1.8;
   color: #3A3A3A;
-  max-width: 700px;
-  margin: 0 auto;
+  margin: 0;
+  text-align: center;
+  max-width: none !important;
 }
 
 /* CTA */
-.index-portfolio-cta-wrapper {
-  text-align: center;
+.index-portfolio-section__cta-wrapper {
+  display: flex;
+  justify-content: center;
 }
 
-.index-portfolio-cta {
-  background: #D4A843;
+.index-portfolio-section__cta {
+  background: var(--accent);
   color: #1A1208;
   padding: 14px 28px;
-  border-radius: 8px;
+  border-radius: 100px;
   border: none;
   font-weight: 700;
   font-size: 0.95rem;
@@ -1384,57 +1172,94 @@
   align-items: center;
   gap: 8px;
   text-decoration: none;
-  transition: background 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 0 4px 16px rgba(212,168,67,0.25);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 16px rgba(212,168,67,0.3);
 }
 
-.index-portfolio-cta:hover {
-  background: #C49A3B;
-  box-shadow: 0 8px 24px rgba(212,168,67,0.4);
+.index-portfolio-section__cta:hover {
+  box-shadow: 0 8px 28px rgba(212,168,67,0.45);
+  transform: translateY(-2px);
 }
 
-.index-portfolio-cta svg {
+.index-portfolio-section__cta svg {
   flex-shrink: 0;
-  transform: scaleX(-1); /* Arrow points left for RTL */
+  color: #1A1208;
+}
+
+/* Divider */
+.index-portfolio-section__divider-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.index-portfolio-section__divider-wrapper svg {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 /* Responsive */
 @media (max-width: 768px) {
   .index-portfolio-section {
-    padding: 60px 16px;
+    padding: 60px 16px 80px;
   }
 
-  .index-portfolio-heading {
+  .index-portfolio-section__header {
+    margin-bottom: 32px;
+  }
+
+  .index-portfolio-section__title {
     font-size: 2rem;
   }
 
-  .index-portfolio-subtitle {
-    font-size: 1rem;
-  }
-
-  .index-portfolio-grid {
+  .index-portfolio-section__grid {
     grid-template-columns: 1fr !important;
     gap: 24px;
+    margin-bottom: 32px;
   }
 
-  .index-portfolio-card-body {
-    padding: 16px;
+  .index-portfolio-section__card-body {
+    padding: 20px;
   }
 
-  .index-portfolio-card-title {
+  .index-portfolio-section__card-title {
     font-size: 1.4rem;
   }
 
-  .index-portfolio-bridge-text {
-    font-size: 1rem;
+  .index-portfolio-section__bridge {
+    margin-bottom: 32px;
+    padding: 0;
   }
 
-  .index-portfolio-cta {
-    width: 100%;
-    justify-content: center;
+  .index-portfolio-section__bridge-text {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .index-portfolio-section__cta {
+    padding: 12px 24px;
+    font-size: 0.9rem;
+  }
+
+  .index-portfolio-section__divider-wrapper {
+    height: 60px;
   }
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+  .index-portfolio-section__grid {
+    gap: 24px;
+  }
+
+  .index-portfolio-section__card-body {
+    padding: 20px;
+  }
+}
 </style>
     <link rel="stylesheet" href="/styles.css">
     <script>window.ZAPPY_WEBSITE_ID = "9af44c00-4086-4d3a-b987-6632062a91b9"; window.ZAPPY_API_BASE = "https://api.zappy5.com";</script>
@@ -2177,126 +2002,124 @@
   </div>
 </section>
 
-<section class="index-portfolio-section" data-layout-spec="בית-portfolio" dir="rtl">
-  <div class="index-portfolio-container">
-    
-    <!-- Section Header -->
-    <header class="index-portfolio-header">
-      <h2 class="index-portfolio-heading">גלריית יצירות</h2>
-      <svg class="index-portfolio-decorative-line" data-no-icon-edit="true" aria-hidden="true" width="120" height="4" viewBox="0 0 120 4" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <rect y="0" width="120" height="2" rx="1" fill="var(--accent)" opacity="0.6"></rect>
-        <rect y="2" width="80" height="2" rx="1" fill="var(--primary)" opacity="0.8"></rect>
-      </svg>
-      <p class="index-portfolio-subtitle">מבחר מעבודות הקריקטורה החיה והאיור של מולי אסידו – רגעים שהופכים לזיכרון מצויר</p>
-    </header>
+<section class="index-portfolio-section" data-layout-spec="בית-portfolio">
+  <div class="index-portfolio-section__container">
+    <!-- Heading -->
+    <div class="index-portfolio-section__header">
+      <h2 class="index-portfolio-section__title">מבחר עבודות נבחרות</h2>
+      <div class="index-portfolio-section__accent-line" aria-hidden="true">
+        <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 120 8" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0,4 Q30,0 60,4 T120,4" fill="none" stroke="var(--accent)" stroke-width="2" opacity="0.7"></path>
+        </svg>
+      </div>
+    </div>
 
     <!-- Portfolio Grid -->
-    <div class="index-portfolio-grid">
-      
+    <div class="index-portfolio-section__grid">
       <!-- Card 1 -->
-      <article class="index-portfolio-card card-default">
-        <figure class="index-portfolio-figure">
-          <img data-context="A lively digital caricature of a couple at a wedding event, drawn in a colorful and expressive cartoon style with exaggerated happy features, capturing the joy of the celebration. The background shows blurred wedding decorations and warm ambient lighting." width="600" height="400" src="/assets/art-education-section-בית-portfolio-index-portfolio-image-1.webp" alt="קריקטורה חיה של זוג בחתונה">
-          <figcaption class="index-portfolio-tag">אירועים</figcaption>
+      <article class="index-portfolio-section__card">
+        <figure class="index-portfolio-section__figure">
+          <img data-context="A lively digital caricature drawing of a smiling couple at a wedding event, colorful and expressive style, warm lighting, Muli Asido art style" width="600" height="400" src="/assets/art-education-section-בית-portfolio-index-portfolio-image-1.webp" alt="קריקטורה חיה של זוג בחתונה">
+          <figcaption class="index-portfolio-section__tag">אירועים</figcaption>
         </figure>
-        <div class="index-portfolio-card-body">
-          <h3 class="index-portfolio-card-title">חתונת רותם ואלון</h3>
-          <p class="index-portfolio-card-desc">קריקטורה חיה שצוירה במהלך קבלת הפנים – האורחים קיבלו מזכרת אישית ומרגשת מהאירוע.</p>
+        <div class="index-portfolio-section__card-body">
+          <h3 class="index-portfolio-section__card-title">קריקטורה חיה בחתונה</h3>
+          <p class="index-portfolio-section__card-text">רישום מהיר ואישי שהותיר לאורחים מזכרת מרגשת ומלאת חיוך</p>
         </div>
       </article>
 
       <!-- Card 2 -->
-      <article class="index-portfolio-card card-default">
-        <figure class="index-portfolio-figure">
-          <img data-context="A corporate event scene showing a businessman sitting for a live caricature, drawn with sharp suit details and a friendly smile, with an office party background featuring colleagues chatting and holding drinks." width="600" height="400" src="/assets/art-education-section-בית-portfolio-index-portfolio-image-2.webp" alt="קריקטורה חיה באירוע חברה">
-          <figcaption class="index-portfolio-tag">עסקים</figcaption>
+      <article class="index-portfolio-section__card">
+        <figure class="index-portfolio-section__figure">
+          <img data-context="A corporate event scene with a caricature artist drawing a professional in a suit, elegant and humorous style, modern office background" width="600" height="400" src="/assets/art-education-section-בית-portfolio-index-portfolio-image-2.webp" alt="קריקטורה באירוע חברה">
+          <figcaption class="index-portfolio-section__tag">עסקים</figcaption>
         </figure>
-        <div class="index-portfolio-card-body">
-          <h3 class="index-portfolio-card-title">אירוע חברת הייטק</h3>
-          <p class="index-portfolio-card-desc">עמדת קריקטורה באירוע גיבוש לעובדים – שבירת קרח, צחוקים והרבה חיוכים.</p>
+        <div class="index-portfolio-section__card-body">
+          <h3 class="index-portfolio-section__card-title">דיוקן מהיר לכנס מקצועי</h3>
+          <p class="index-portfolio-section__card-text">חוויית נטוורקינג שונה – דיוקן אישי שנוצר מול העיניים ומוסיף צבע לאירוע</p>
         </div>
       </article>
 
       <!-- Card 3 -->
-      <article class="index-portfolio-card card-default">
-        <figure class="index-portfolio-figure">
-          <img data-context="A detailed portrait drawing of a young artist student, showing before-and-after progress: rough sketch on the left side, finished confident pencil portrait on the right, with art supplies visible on a wooden desk." width="600" height="400" src="/assets/art-education-section-בית-portfolio-index-portfolio-image-3.webp" alt="לימוד ציור – עבודת תלמידה">
-          <figcaption class="index-portfolio-tag">לימוד</figcaption>
+      <article class="index-portfolio-section__card">
+        <figure class="index-portfolio-section__figure">
+          <img data-context="A detailed charcoal portrait study drawn in an art class setting, expressive shading, educational atmosphere" width="600" height="400" src="/assets/art-education-section-בית-portfolio-index-portfolio-image-3.webp" alt="דיוקן בפחם מסדנת רישום">
+          <figcaption class="index-portfolio-section__tag">הוראה</figcaption>
         </figure>
-        <div class="index-portfolio-card-body">
-          <h3 class="index-portfolio-card-title">דיוקן עצמי – תלמידה</h3>
-          <p class="index-portfolio-card-desc">תהליך לימוד ציור דיוקן בקורס 'ביטחון ברישום' – מהקו הראשון ועד לתוצאה מרשימה.</p>
+        <div class="index-portfolio-section__card-body">
+          <h3 class="index-portfolio-section__card-title">לימוד רישום בביטחון</h3>
+          <p class="index-portfolio-section__card-text">מתוך סדנה – תלמידים מתרגלים טכניקות הבעה ומגלים את הקו האישי שלהם</p>
         </div>
       </article>
 
       <!-- Card 4 -->
-      <article class="index-portfolio-card card-default">
-        <figure class="index-portfolio-figure">
-          <img data-context="A vibrant group caricature of a family at a private party, drawn in a playful style with bright colors, showing parents and children laughing together, with a garden party setting in the background." width="600" height="400" src="/assets/art-education-section-בית-portfolio-index-portfolio-image-4.webp" alt="קריקטורה משפחתית באירוע פרטי">
-          <figcaption class="index-portfolio-tag">פרטי</figcaption>
+      <article class="index-portfolio-section__card">
+        <figure class="index-portfolio-section__figure">
+          <img data-context="A colorful caricature of a family with children at a private party, playful and warm illustration style, balloons and festive background" width="600" height="400" src="/assets/art-education-section-בית-portfolio-index-portfolio-image-4.webp" alt="קריקטורה משפחתית באירוע פרטי">
+          <figcaption class="index-portfolio-section__tag">פרטי</figcaption>
         </figure>
-        <div class="index-portfolio-card-body">
-          <h3 class="index-portfolio-card-title">יום הולדת משפחתי</h3>
-          <p class="index-portfolio-card-desc">קריקטורה קבוצתית שצוירה בגינה – המתנה הכי מקורית שסבתא קיבלה ליום ההולדת.</p>
+        <div class="index-portfolio-section__card-body">
+          <h3 class="index-portfolio-section__card-title">חוויה משפחתית באירוע</h3>
+          <p class="index-portfolio-section__card-text">ילדים ומבוגרים נהנים מרגע קסום של יצירה אישית שהופכת למזכרת</p>
         </div>
       </article>
-
     </div>
 
     <!-- Bridge Paragraph -->
-    <div class="index-portfolio-bridge">
-      <p class="index-portfolio-bridge-text">בין אם אתם מחפשים אטרקציה מיוחדת לאירוע שלכם או רוצים ללמוד לצייר בביטחון – כל יצירה מתחילה בקו אחד מדויק. מוזמנים להציץ, להתרשם, ולבחור את הדרך שלכם.</p>
+    <div class="index-portfolio-section__bridge">
+      <p class="index-portfolio-section__bridge-text">כל איור מתחיל בקו אחד בטוח. בין אם מדובר באירוע חי ובין אם בסדנת לימוד – המטרה היא לחבר אנשים ליצירה, לחיוך ולביטוי אישי. הגלריה המלאה מציעה הצצה רחבה יותר לעבודות מאירועים, סדנאות ופרויקטים מיוחדים.</p>
     </div>
 
     <!-- CTA Button -->
-    <div class="index-portfolio-cta-wrapper">
-      <a href="/contact" class="btn-primary index-portfolio-cta">
-        <span>צרו קשר לתיאום אירוע או שיעור</span>
-        <svg data-element-type="icon" data-icon-type="svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-          <line x1="5" y1="12" x2="19" y2="12"></line>
-          <polyline points="12 5 19 12 12 19"></polyline>
+    <div class="index-portfolio-section__cta-wrapper">
+      <a href="/gallery" class="index-portfolio-section__cta btn-pill">
+        <span>צפייה בגלריה המלאה</span>
+        <svg data-element-type="icon" data-icon-type="svg" aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M19 12H5M12 5l-7 7 7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
         </svg>
       </a>
     </div>
+  </div>
 
+  <!-- Divider at bottom -->
+  <div class="index-portfolio-section__divider-wrapper" aria-hidden="true">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,80 L0,45 Q60,38 120,44 T240,40 Q300,45 360,38 T480,43 Q540,38 600,44 T720,39 Q780,44 840,38 T960,43 Q1020,37 1080,42 T1200,40 L1200,80 Z" fill="#3E4A4A"></path>
+    </svg>
   </div>
 </section>
 
-<section class="index-cta-section" data-layout-spec="בית-cta">
+<section data-band-index="4" class="index-cta-section" data-layout-spec="בית-cta">
+  <!-- Decorative hand-drawn line motif (top-right) -->
+  <div class="index-cta-section__deco-top" aria-hidden="true" data-element-type="icon" data-icon-type="svg">
+    <svg viewBox="0 0 180 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M10,50 Q30,10 90,25 T170,15" stroke="var(--accent)" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.5"></path>
+      <circle cx="170" cy="15" r="4" fill="var(--accent)" opacity="0.5"></circle>
+    </svg>
+  </div>
+
+  <!-- Decorative hand-drawn line motif (bottom-left) -->
+  <div class="index-cta-section__deco-bottom" aria-hidden="true" data-element-type="icon" data-icon-type="svg">
+    <svg viewBox="0 0 180 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M170,10 Q150,50 90,35 T10,45" stroke="var(--accent)" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.5"></path>
+      <circle cx="10" cy="45" r="4" fill="var(--accent)" opacity="0.5"></circle>
+    </svg>
+  </div>
+
   <div class="index-cta-section__container">
-    <!-- Decorative wavy line elements -->
-    <svg class="index-cta-section__deco index-cta-section__deco--top-right" data-no-icon-edit="true" aria-hidden="true" width="180" height="120" viewBox="0 0 180 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0 20 Q30 0 60 25 T120 15 T180 30" stroke="var(--accent)" stroke-width="1.5" fill="none" opacity="0.3"></path>
-      <path d="M0 40 Q40 20 80 45 T160 35 T220 50" stroke="var(--secondary)" stroke-width="1" fill="none" opacity="0.2"></path>
-    </svg>
-    <svg class="index-cta-section__deco index-cta-section__deco--bottom-left" data-no-icon-edit="true" aria-hidden="true" width="200" height="140" viewBox="0 0 200 140" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M200 120 Q170 140 140 115 T80 125 T20 110 T-20 120" stroke="var(--accent)" stroke-width="1.5" fill="none" opacity="0.3"></path>
-      <path d="M200 100 Q160 120 120 95 T60 105 T0 90" stroke="var(--secondary)" stroke-width="1" fill="none" opacity="0.2"></path>
-    </svg>
+    <h2 class="index-cta-section__heading">רוצים להפוך את האירוע שלכם לבלתי נשכח?<br>או שאולי הגיע הזמן ללמוד לצייר בביטחון?</h2>
+    
+    <p class="index-cta-section__description">אני מזמין אתכם ליצור איתי קשר באופן אישי. בין אם אתם מתכננים אירוע ומחפשים קריקטוריסט שירתק את האורחים, או שאתם רוצים סוף סוף לשלוט בעיפרון – אני כאן כדי לעזור לכם לבחור את המסלול המדויק עבורכם.</p>
 
-    <div class="index-cta-section__content">
-      <h2 class="index-cta-section__heading">רוצים אירוע בלתי נשכח או ללמוד לצייר?</h2>
-      <p class="index-cta-section__description">בין אם אתם מתכננים אירוע מיוחד ומחפשים חווית קריקטורה חיה שתשאיר את האורחים מרותקים, ובין אם תמיד חלמתם לשלוף עיפרון ולצייר בביטחון — מולי אסידו כאן בשבילכם. בחרו את המסלול שלכם והתחילו במסע יצירתי כבר עכשיו.</p>
-      
-      <div class="index-cta-section__buttons">
-        <a href="#contact" class="index-cta-section__btn index-cta-section__btn--primary">
-          <span>בדיקת זמינות לאירוע</span>
-          <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 5L7 10L12 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-          </svg>
-        </a>
-        <a href="#courses" class="index-cta-section__btn index-cta-section__btn--secondary">
-          <span>רוצה ללמוד לצייר</span>
-          <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 5L7 10L12 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-          </svg>
-        </a>
-      </div>
-    </div>
-
-    <!-- Supporting decorative image placeholder -->
-    <div class="index-cta-section__image-wrapper">
-      <img data-context="A warm, atmospheric close-up of a hand holding a charcoal pencil sketching a caricature on textured paper, with soft bokeh background and warm golden lighting, capturing the artistic and educational dual identity of Muli Asido" width="400" height="300" src="/assets/art-education-section-בית-cta-index-cta-image-1.webp" alt="יד רושמת קריקטורה בעיפרון פחם על נייר" class="index-cta-section__image">
+    <div class="index-cta-section__buttons">
+      <a href="/contact" class="index-cta-section__btn index-cta-section__btn--primary">
+        <span>בדיקת זמינות לאירוע</span>
+        <i class="fas fa-arrow-left" aria-hidden="true"></i>
+      </a>
+      <a href="/contact" class="index-cta-section__btn index-cta-section__btn--secondary">
+        <span>רוצה ללמוד לצייר</span>
+        <i class="fas fa-arrow-left" aria-hidden="true"></i>
+      </a>
     </div>
   </div>
 </section>
