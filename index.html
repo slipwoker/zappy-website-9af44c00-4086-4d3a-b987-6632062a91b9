@@ -999,6 +999,209 @@
   }
 }
 </style>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.index-cta-section {
+  background-color: var(--bg-dark);
+  background-image: 
+    radial-gradient(circle at 15% 20%, rgba(212, 168, 83, 0.08) 0%, transparent 50%),
+    radial-gradient(circle at 85% 80%, rgba(74, 124, 120, 0.1) 0%, transparent 50%),
+    linear-gradient(165deg, #2A3232 0%, #1E2424 100%);
+  color: var(--text-light);
+  padding: 80px 16px;
+  position: relative;
+  overflow: hidden;
+  direction: rtl;
+  text-align: right;
+}
+
+.index-cta-section__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  position: relative;
+  z-index: 10;
+}
+
+.index-cta-section__deco {
+  position: absolute;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.index-cta-section__deco--top-right {
+  top: -20px;
+  inset-inline-end: -30px;
+}
+
+.index-cta-section__deco--bottom-left {
+  bottom: -30px;
+  inset-inline-start: -40px;
+}
+
+.index-cta-section__content {
+  flex: 1 1 55%;
+  position: relative;
+  z-index: 2;
+}
+
+.index-cta-section__heading {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--text-light);
+  margin: 0 0 24px 0;
+  max-width: 600px;
+}
+
+.index-cta-section__description {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: rgba(247, 241, 232, 0.85);
+  margin: 0 0 40px 0;
+  max-width: 550px;
+}
+
+.index-cta-section__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
+
+.index-cta-section__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 16px 32px;
+  border-radius: 100px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.index-cta-section__btn--primary {
+  background-color: var(--primary);
+  color: #FFFFFF;
+}
+
+.index-cta-section__btn--primary:hover {
+  background-color: #3D6B68;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
+  transform: translateY(-2px);
+}
+
+.index-cta-section__btn--secondary {
+  background-color: var(--secondary);
+  color: #FFFFFF;
+}
+
+.index-cta-section__btn--secondary:hover {
+  background-color: #C07D55;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
+  transform: translateY(-2px);
+}
+
+.index-cta-section__btn svg {
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+}
+
+.index-cta-section__btn:hover svg {
+  transform: translateX(-4px);
+}
+
+.index-cta-section__image-wrapper {
+  flex: 1 1 40%;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.index-cta-section__image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 24px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  border: 4px solid rgba(247, 241, 232, 0.1);
+  object-fit: cover;
+  aspect-ratio: 4 / 3;
+}
+
+@media (max-width: 768px) {
+  .index-cta-section {
+    padding: 60px 16px;
+  }
+
+  .index-cta-section__container {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .index-cta-section__content {
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .index-cta-section__heading {
+    font-size: 2rem;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .index-cta-section__description {
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  .index-cta-section__buttons {
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .index-cta-section__btn {
+    width: 100%;
+    max-width: 320px;
+    justify-content: center;
+  }
+
+  .index-cta-section__image-wrapper {
+    display: none;
+  }
+
+  .index-cta-section__deco--top-right {
+    top: -10px;
+    inset-inline-end: -20px;
+    width: 120px;
+    height: 80px;
+  }
+
+  .index-cta-section__deco--bottom-left {
+    bottom: -20px;
+    inset-inline-start: -20px;
+    width: 140px;
+    height: 100px;
+  }
+}
+</style>
     <link rel="stylesheet" href="/styles.css">
     <script>window.ZAPPY_WEBSITE_ID = "9af44c00-4086-4d3a-b987-6632062a91b9"; window.ZAPPY_API_BASE = "https://api.zappy5.com";</script>
 
@@ -1820,37 +2023,41 @@
   </div>
 </section>
 
-<section data-band-index="4" class="index-cta-section" data-layout-spec="בית-cta">
-  <!-- Decorative hand-drawn line motif (top-right) -->
-  <div class="index-cta-section__deco-top" aria-hidden="true" data-element-type="icon" data-icon-type="svg">
-    <svg viewBox="0 0 180 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M10,50 Q30,10 90,25 T170,15" stroke="var(--accent)" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.5"></path>
-      <circle cx="170" cy="15" r="4" fill="var(--accent)" opacity="0.5"></circle>
-    </svg>
-  </div>
-
-  <!-- Decorative hand-drawn line motif (bottom-left) -->
-  <div class="index-cta-section__deco-bottom" aria-hidden="true" data-element-type="icon" data-icon-type="svg">
-    <svg viewBox="0 0 180 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M170,10 Q150,50 90,35 T10,45" stroke="var(--accent)" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.5"></path>
-      <circle cx="10" cy="45" r="4" fill="var(--accent)" opacity="0.5"></circle>
-    </svg>
-  </div>
-
+<section class="index-cta-section" data-layout-spec="בית-cta">
   <div class="index-cta-section__container">
-    <h2 class="index-cta-section__heading">רוצים להפוך את האירוע שלכם לבלתי נשכח?<br>או שאולי הגיע הזמן ללמוד לצייר בביטחון?</h2>
-    
-    <p class="index-cta-section__description">אני מזמין אתכם ליצור איתי קשר באופן אישי. בין אם אתם מתכננים אירוע ומחפשים קריקטוריסט שירתק את האורחים, או שאתם רוצים סוף סוף לשלוט בעיפרון – אני כאן כדי לעזור לכם לבחור את המסלול המדויק עבורכם.</p>
+    <!-- Decorative wavy line elements -->
+    <svg class="index-cta-section__deco index-cta-section__deco--top-right" data-no-icon-edit="true" aria-hidden="true" width="180" height="120" viewBox="0 0 180 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 20 Q30 0 60 25 T120 15 T180 30" stroke="var(--accent)" stroke-width="1.5" fill="none" opacity="0.3"></path>
+      <path d="M0 40 Q40 20 80 45 T160 35 T220 50" stroke="var(--secondary)" stroke-width="1" fill="none" opacity="0.2"></path>
+    </svg>
+    <svg class="index-cta-section__deco index-cta-section__deco--bottom-left" data-no-icon-edit="true" aria-hidden="true" width="200" height="140" viewBox="0 0 200 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M200 120 Q170 140 140 115 T80 125 T20 110 T-20 120" stroke="var(--accent)" stroke-width="1.5" fill="none" opacity="0.3"></path>
+      <path d="M200 100 Q160 120 120 95 T60 105 T0 90" stroke="var(--secondary)" stroke-width="1" fill="none" opacity="0.2"></path>
+    </svg>
 
-    <div class="index-cta-section__buttons">
-      <a href="/contact" class="index-cta-section__btn index-cta-section__btn--primary">
-        <span>בדיקת זמינות לאירוע</span>
-        <i class="fas fa-arrow-left" aria-hidden="true"></i>
-      </a>
-      <a href="/contact" class="index-cta-section__btn index-cta-section__btn--secondary">
-        <span>רוצה ללמוד לצייר</span>
-        <i class="fas fa-arrow-left" aria-hidden="true"></i>
-      </a>
+    <div class="index-cta-section__content">
+      <h2 class="index-cta-section__heading">רוצים אירוע בלתי נשכח או ללמוד לצייר?</h2>
+      <p class="index-cta-section__description">בין אם אתם מתכננים אירוע מיוחד ומחפשים חווית קריקטורה חיה שתשאיר את האורחים מרותקים, ובין אם תמיד חלמתם לשלוף עיפרון ולצייר בביטחון — מולי אסידו כאן בשבילכם. בחרו את המסלול שלכם והתחילו במסע יצירתי כבר עכשיו.</p>
+      
+      <div class="index-cta-section__buttons">
+        <a href="#contact" class="index-cta-section__btn index-cta-section__btn--primary">
+          <span>בדיקת זמינות לאירוע</span>
+          <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 5L7 10L12 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+        </a>
+        <a href="#courses" class="index-cta-section__btn index-cta-section__btn--secondary">
+          <span>רוצה ללמוד לצייר</span>
+          <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 5L7 10L12 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- Supporting decorative image placeholder -->
+    <div class="index-cta-section__image-wrapper">
+      <img data-context="A warm, atmospheric close-up of a hand holding a charcoal pencil sketching a caricature on textured paper, with soft bokeh background and warm golden lighting, capturing the artistic and educational dual identity of Muli Asido" width="400" height="300" src="/assets/art-education-section-בית-cta-index-cta-image-1.webp" alt="יד רושמת קריקטורה בעיפרון פחם על נייר" class="index-cta-section__image">
     </div>
   </div>
 </section>
