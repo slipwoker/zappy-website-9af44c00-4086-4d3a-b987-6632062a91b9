@@ -252,6 +252,267 @@
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.index-hero-section {
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1A1208;
+  background-image:
+    radial-gradient(ellipse at 80% 20%, rgba(42,122,107,0.18) 0%, transparent 55%),
+    radial-gradient(ellipse at 20% 80%, rgba(212,168,67,0.12) 0%, transparent 50%),
+    linear-gradient(180deg, #1A1208 0%, #0D0A04 100%);
+  color: var(--text-light);
+  padding-bottom: 80px;
+  direction: rtl;
+}
+
+.index-hero-section .hero-bg-layer {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.index-hero-section .hero-bg-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.index-hero-section .hero-scrim {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(180deg, rgba(13,10,4,0.55) 0%, rgba(26,18,8,0.7) 40%, rgba(26,18,8,0.85) 100%);
+  pointer-events: none;
+}
+
+.index-hero-section .hero-decorative-ink {
+  position: absolute;
+  top: -40px;
+  inset-inline-end: -60px;
+  width: 420px;
+  height: 420px;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.9;
+}
+
+.index-hero-section .hero-decorative-ink svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.index-hero-section .hero-overlay-group {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.index-hero-section .hero-content-container {
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+}
+
+.index-hero-section .hero-title {font-family: 'Heebo', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.15;
+  color: var(--text-light);
+  margin: 0 0 20px 0;
+  text-align: center;
+  max-width: none !important;}
+
+.index-hero-section .hero-subtitle {
+  font-family: 'Heebo', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #F5EFE6;
+  text-shadow: 0 2px 12px rgba(0,0,0,0.45);
+  margin: 0 0 36px 0;
+  text-align: center;
+  max-width: 680px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.index-hero-section .hero-cta-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.index-hero-section .btn-hero-primary {
+  background: var(--primary);
+  color: #FFFFFF;
+  padding: 14px 28px;
+  border-radius: 100px;
+  border: none;
+  font-weight: 700;
+  font-size: 0.95rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 8px 24px rgba(26,18,8,0.3);
+  flex-shrink: 0;
+}
+
+.index-hero-section .btn-hero-primary:hover {
+  background: #2A7A6B;
+  transform: translateY(-3px);
+  box-shadow: 0 12px 32px rgba(42,122,107,0.4);
+}
+
+.index-hero-section .btn-hero-primary svg {
+  transform: scaleX(-1);
+  flex-shrink: 0;
+}
+
+.index-hero-section .btn-hero-secondary {
+  background: var(--secondary);
+  color: #1A1208;
+  padding: 14px 28px;
+  border-radius: 100px;
+  border: none;
+  font-weight: 700;
+  font-size: 0.95rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 8px 24px rgba(26,18,8,0.25);
+  flex-shrink: 0;
+}
+
+.index-hero-section .btn-hero-secondary:hover {
+  background: #E8C49A;
+  transform: translateY(-3px);
+  box-shadow: 0 12px 32px rgba(212,149,107,0.4);
+}
+
+.index-hero-section .btn-hero-secondary svg {
+  transform: scaleX(-1);
+  flex-shrink: 0;
+}
+
+.index-hero-section .hero-small-text {
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--text-light);
+  text-shadow: 0 1px 8px rgba(0,0,0,0.4);
+  margin: 0;
+  text-align: center;
+  opacity: 0.85;
+}
+
+/* Torn Paper Divider */
+.index-hero-section .index-hero-divider-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.index-hero-section .index-hero-divider-wrapper svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .index-hero-section {
+    padding-top: 100px;
+    padding-bottom: 60px;
+    min-height: 100vh;
+  }
+
+  .index-hero-section .hero-title {
+    font-size: 2.6rem;
+    line-height: 1.2;
+  }
+
+  .index-hero-section .hero-subtitle {
+    font-size: 1.1rem;
+    margin-bottom: 28px;
+  }
+
+  .index-hero-section .hero-cta-row {
+    flex-direction: column;
+    gap: 14px;
+    align-items: stretch;
+  }
+
+  .index-hero-section .btn-hero-primary,
+  .index-hero-section .btn-hero-secondary {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .index-hero-section .hero-decorative-ink {
+    width: 280px;
+    height: 280px;
+    top: -20px;
+    inset-inline-end: -40px;
+  }
+
+  .index-hero-section .hero-overlay-group {
+    padding: 0 16px;
+  }
+
+  .index-hero-section .index-hero-divider-wrapper {
+    height: 60px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .index-hero-section .hero-title {
+    font-size: 4rem;
+  }
+
+  .index-hero-section .hero-subtitle {
+    font-size: 1.35rem;
+  }
+}
+/* ZAPPY_POSTGEN_GUARD_HERO_FONT_CAP:index-hero */
+.hero h1, .hero-section h1, [class*="hero-"] h1, [class~="hero"] h1, .hero .hero-title, .hero-title { font-size: 48px !important; line-height: 1.2 !important; }
+@media (max-width: 1024px) {
+  .hero h1, .hero-section h1, [class*="hero-"] h1, [class~="hero"] h1, .hero .hero-title, .hero-title { font-size: 36px !important; }
+}
+@media (max-width: 768px) {
+  .hero h1, .hero-section h1, [class*="hero-"] h1, [class~="hero"] h1, .hero .hero-title, .hero-title { font-size: 28px !important; }
+}
+
+/* ZAPPY_POSTGEN_GUARD_HERO_TYPO:בית-hero (index-hero) — stripped 1 jarring hero headline effect(s) */
+
+</style>
     <link rel="stylesheet" href="/styles.css">
     <script>window.ZAPPY_WEBSITE_ID = "9af44c00-4086-4d3a-b987-6632062a91b9"; window.ZAPPY_API_BASE = "https://api.zappy5.com";</script>
 
@@ -809,50 +1070,47 @@
 </script>
   
   <main id="main">
-    <section data-band-index="0" class="index-hero-section" data-layout-spec="בית-hero" data-hero-type="fullscreen-scrim">
-    <!-- Full-bleed background image -->
-    <div class="hero-bg-wrapper">
-        <img loading="eager" fetchpriority="high" data-hero-bg="true" class="hero-bg-image" data-placeholder="index-hero-image-1" data-context="Muli Asido drawing a live caricature at a warmly lit event, guests smiling in the background, candid performance shot with soft bokeh and cinematic grain, editorial framing" width="1200" height="600" src="/assets/site-index-hero-image-1-1780989510541-5rqewv.webp?v=1780989510541" alt="מולי אסידו מצייר קריקטורה חיה באירוע">
-    </div>
+    <section class="index-hero-section" data-layout-spec="בית-hero" data-hero-type="fullscreen-scrim">
+  <!-- Background Image Layer -->
+  <div class="hero-bg-layer">
+    <img data-hero-bg="true" data-context="Warm desk/studio background with pencils and coffee cup, artistic handcrafted feel, soft natural light, wooden table with sketchbook, watercolor palette, and scattered art supplies, cozy creative workspace atmosphere" width="1200" height="600" src="/assets/art-education-section-בית-hero-index-hero-image-1.webp" alt="סביבת עבודה אמנותית חמימה עם כלי ציור" class="hero-bg-image">
+  </div>
 
-    <!-- Dark gradient scrim overlay for text legibility -->
-    <div class="hero-scrim" aria-hidden="true"></div>
+  <!-- Scrim Overlay Layer -->
+  <div class="hero-scrim" aria-hidden="true"></div>
 
-    <!-- Decorative ink splash motif -->
-    <svg class="hero-decorative-ink" data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 400 400" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-        <ellipse cx="280" cy="120" rx="180" ry="140" fill="#2A7A6B" opacity="0.08"></ellipse>
-        <ellipse cx="320" cy="100" rx="120" ry="90" fill="#2A7A6B" opacity="0.06"></ellipse>
-        <ellipse cx="260" cy="140" rx="100" ry="70" fill="#2A7A6B" opacity="0.05"></ellipse>
+  <!-- Decorative Ink Splash Motif -->
+  <div class="hero-decorative-ink" aria-hidden="true">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+      <path d="M350,50 Q320,20 280,40 Q250,10 210,30 Q180,15 150,40 Q120,25 90,50 Q60,35 40,70 Q15,55 10,90 Q5,120 20,140 Q10,170 30,190 Q20,220 40,240 Q30,270 50,290 Q40,320 70,340 Q60,370 90,380 Q120,390 140,370 Q170,385 190,360 Q220,380 240,350 Q270,370 290,340 Q320,360 340,330 Q365,350 380,320 Q390,290 370,270 Q385,240 360,220 Q375,190 350,170 Q365,140 340,120 Q355,90 330,70 Z" fill="var(--primary)" opacity="0.08"></path>
     </svg>
+  </div>
 
-    <!-- Text overlay group -->
-    <div class="hero-overlay-group">
-        <h1 class="hero-headline">קריקטורות לאירועים ולימוד ציור בביטחון</h1>
-        <h3 class="hero-subtitle">מולי אסידו — אמן קריקטורות חי לאירועים ומורה לציור שמלמד אנשים לצייר בקלות ובהנאה</h3>
-        <div class="hero-cta-group">
-            <a href="/events" class="hero-cta hero-cta-primary">
-                רוצה קריקטוריסט לאירוע?
-                <i class="fas fa-arrow-left" aria-hidden="true"></i>
-            </a>
-            <a href="/learn" class="hero-cta hero-cta-secondary">
-                רוצה ללמוד לצייר?
-                <i class="fas fa-arrow-left" aria-hidden="true"></i>
-            </a>
-        </div>
+  <!-- Text/CTA Overlay Group -->
+  <div class="hero-overlay-group">
+    <div class="hero-content-container">
+      <h1 class="hero-title">אמנות חיה, ביטחון בציור</h1>
+      <h3 class="hero-subtitle">מולי אסידו — קריקטוריסט לאירועים ומורה לציור שמחבר בין יצירה, שמחה וביטוי אישי</h3>
+      <div class="hero-cta-row">
+        <a href="/contact" class="btn-hero-primary">
+          <span>הזמינו קריקטורה לאירוע</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg>
+        </a>
+        <a href="/contact" class="btn-hero-secondary">
+          <span>ללמוד לצייר בביטחון</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg>
+        </a>
+      </div>
+      <p class="hero-small-text">מאות אירועים, מאות תלמידים — הגישה שמחברת אמנות ואנשים</p>
     </div>
+  </div>
 
-    <!-- Bottom divider: torn-canvas edge -->
-    <div class="hero-divider-wrapper">
-        <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-                <linearGradient id="tornCanvasGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-                    <stop offset="0%" stop-color="#F5EFE6" stop-opacity="0.4"></stop>
-                    <stop offset="100%" stop-color="#F5EFE6" stop-opacity="1"></stop>
-                </linearGradient>
-            </defs>
-            <path d="M0,80 L0,45 Q30,48 60,42 T120,46 Q150,40 180,44 T240,38 Q270,43 300,40 T360,45 Q390,39 420,43 T480,37 Q510,42 540,39 T600,44 Q630,38 660,42 T720,36 Q750,41 780,38 T840,43 Q870,37 900,41 T960,35 Q990,40 1020,37 T1080,42 Q1110,36 1140,40 T1200,44 L1200,80 Z" fill="#F5EFE6"></path>
-        </svg>
-    </div>
+  <!-- Torn Paper Bottom Divider -->
+  <div class="index-hero-divider-wrapper" aria-hidden="true">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,80 L0,35 Q50,30 100,38 T200,32 Q250,40 300,30 T400,36 Q450,32 500,38 T600,30 Q650,38 700,32 T800,36 Q850,30 900,38 T1000,32 Q1050,40 1100,30 T1200,36 L1200,80 Z" fill="#F5EFE6"></path>
+    </svg>
+  </div>
 </section>
 
 <section data-band-index="1" class="index-audience-paths-section" data-layout-spec="בית-audience-paths">
@@ -934,7 +1192,7 @@
     <!-- Bottom Divider: Curved Brushstroke SVG -->
     <div class="index-audience-paths-section__divider-wrapper" aria-hidden="true">
         <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M0,80 L0,45 Q80,55 160,42 T320,48 Q400,35 480,50 T640,42 Q720,55 800,42 T960,50 Q1040,38 1120,48 T1200,42 L1200,80 Z" fill="var(--bg-dark)"></path>
+            <path d="M0,80 L0,45 Q80,55 160,42 T320,48 Q400,35 480,50 T640,42 Q720,55 800,42 T960,50 Q1040,38 1120,48 T1200,42 L1200,80 Z" fill="#F7F1E8"></path>
         </svg>
     </div>
 </section>
@@ -1100,9 +1358,9 @@
   <div class="index-portfolio-section__divider-wrapper">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <!-- Saffron highlight line -->
-      <path d="M0,42 Q40,38 80,43 T160,39 Q200,44 240,40 T320,43 Q360,38 400,42 T480,39 Q520,43 560,40 T640,42 Q680,38 720,43 T800,39 Q840,44 880,40 T960,43 Q1000,38 1040,42 T1120,39 Q1160,43 1200,40" fill="#A0C4BC" stroke="var(--accent)" stroke-width="2.5" stroke-linecap="round" opacity="0.9"></path>
+      <path d="M0,42 Q40,38 80,43 T160,39 Q200,44 240,40 T320,43 Q360,38 400,42 T480,39 Q520,43 560,40 T640,42 Q680,38 720,43 T800,39 Q840,44 880,40 T960,43 Q1000,38 1040,42 T1120,39 Q1160,43 1200,40" fill="#D4956B" stroke="var(--accent)" stroke-width="2.5" stroke-linecap="round" opacity="0.9"></path>
       <!-- Torn paper edge filling bottom -->
-      <path d="M0,80 L0,48 Q30,44 60,50 T120,46 Q150,52 180,48 T240,50 Q270,45 300,49 T360,46 Q390,51 420,48 T480,50 Q510,45 540,49 T600,46 Q630,51 660,48 T720,50 Q750,45 780,49 T840,46 Q870,51 900,48 T960,50 Q990,45 1020,49 T1080,46 Q1110,52 1140,48 T1200,50 L1200,80 Z" fill="#A0C4BC"></path>
+      <path d="M0,80 L0,48 Q30,44 60,50 T120,46 Q150,52 180,48 T240,50 Q270,45 300,49 T360,46 Q390,51 420,48 T480,50 Q510,45 540,49 T600,46 Q630,51 660,48 T720,50 Q750,45 780,49 T840,46 Q870,51 900,48 T960,50 Q990,45 1020,49 T1080,46 Q1110,52 1140,48 T1200,50 L1200,80 Z" fill="#D4956B"></path>
     </svg>
   </div>
 </section>
